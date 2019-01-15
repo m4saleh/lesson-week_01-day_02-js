@@ -1,0 +1,58 @@
+
+solving problem 1:
+(The Fortune Teller) 
+
+var numberChildren = 20;
+var partnerName = "Mohammed";
+var geographicLocation = "Riyadh";
+var jobTitle = "Computer Engineering";
+
+
+
+solving problem 2:
+(The Age Calculator)
+
+var thisYears = 2019;
+var YourBirthYear = 1999;
+var yourAge = thisYears - YourBirthYear;
+console.log(yourAge);
+
+
+
+solving problem 3:
+(The Lifetime Supply Calculator)
+
+var yourCurrentAge = 24;
+var maximumAge = 60;
+var estimatedAmountPerDay = 30;
+var thisYears = 2019;
+var remainingOld = maximumAge - yourCurrentAge ;
+var remainingAmount = remainingOld * estimatedAmountPerDay ;
+
+console.log("You will need " + remainingAmount +
+" last you until the ripe old age of " + maximumAge );
+
+
+
+solving problem 4:
+(The Geometrizer)
+ 
+var radius = 5;
+var circleCircumference = radius * 3.14 +" cm";
+var circleArea = (radius * radius) * 3.14 +" m2";
+console.log("The circumference is " + circleCircumference);
+console.log("The area is " + circleArea);
+
+
+solving problem 5:
+(The Temperature Converter)
+
+var celsiusTemperature = 26;
+var fahrenheitTemperature = (celsiusTemperature * 1.8) + 32;
+console.log( celsiusTemperature + " °C " + " is " + fahrenheitTemperature + " °F " );
+
+var celsius = (fahrenheitTemperature - 32)/ 1.8;
+console.log( fahrenheitTemperature + " °F "+ " is " + celsius + " °C " );
+
+
+
